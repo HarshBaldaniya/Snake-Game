@@ -1,9 +1,9 @@
 // variables
 let inputDir = { x: 0, y: 0 };
-const foodSound = new Audio("./");
-const gameOverSound = new Audio("./audio/game_over.wav");
-const musicSound = new Audio("./audio/main.mp3");
-const moveSound = new Audio("./audio/move.mp3");
+const foodSound = new Audio("../");
+const gameOverSound = new Audio("../game_over.wav");
+const musicSound = new Audio("../main.mp3");
+const moveSound = new Audio("../move.mp3");
 let speed = 18;
 let lastPainttime = 0;
 let snakeArr = [{ x: 13, y: 15 }];
