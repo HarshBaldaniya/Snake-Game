@@ -6,6 +6,29 @@
 }
 /* end of main */
 
+/* for phone */
+.name{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 800;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  flex-wrap: wrap;
+  display: none;
+}
+
+@media only screen and (max-width: 1200px){
+  .body{
+      display: none !important;
+  }
+  .name{
+    display: flex;
+  }
+}
+/* for phone */
+
 /* body */
 .body {
   background: url(../images/background.png);
